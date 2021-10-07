@@ -1,0 +1,39 @@
+.Store-List-View {
+    position: relative;
+    width:100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .List-View-Shop-Item {
+    position: relative;
+    width:70%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+    justify-content: space-between;
+  
+    margin:10px;
+    padding:15px;
+    background: #d1d1d1;
+  
+    border-radius: 10px;
+  }
+  
+  .List-View-Shop-Item div {
+    position:relative;
+    height: 100px;
+    display: flex;
+  
+  
+  
+    align-items: center;
+  }
+  
+  .List-View-Shop-Item .Card-Image {
+    height: 100px;
+  }

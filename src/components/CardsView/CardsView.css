@@ -1,0 +1,47 @@
+.Store-Cards-View{
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    align-items:center;
+    justify-content: space-around;
+}
+.Store-Cards-View .Cards-View-Shop-Card {
+    position: relative;
+    width:25%;
+    margin:10px;
+    padding:10px;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Cards-View-Shop-Card div {
+    position: relative;
+  }
+  .Cards-View-Shop-Card .Card-Name {
+    width:100%;
+    order: 0;
+  }
+  
+  .Cards-View-Shop-Card .Card-Color {
+    width:100%;
+    order: 1;
+  }
+  .Cards-View-Shop-Card .Card-Image {
+    order: 2;
+    position: relative;
+    width:100%;
+  }
+  
+  .Cards-View-Shop-Card .Card-Price {
+    width:50%;
+    order: 3;
+  }
+  
+  .Cards-View-Shop-Card .AddToCart-Button {
+    width:50%;
+    order: 4;
+  }

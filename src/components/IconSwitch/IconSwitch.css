@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.Store-Icon-Switch {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    
+    padding:10px;
+  
+    font-family: 'Material Icons';
+    font-size: 60px;
+    color:#282c34;
+  
+    cursor: pointer;
+  }
+  
+  .Store-Icon-Switch:hover {
+    color:#3d424b;
+  }
