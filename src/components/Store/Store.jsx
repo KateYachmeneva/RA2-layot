@@ -4,7 +4,7 @@ import products from '../../dumyData/products';
 import IconSwitch from "../IconSwitch/IconSwitch";
 import CardsView from "../CardsView/CardsView";
 import ListView from "../ListView/ListView";
-// import shortid from 'shortid';
+
 
 var ids = require('short-id');
 const Store = () => {
@@ -22,10 +22,11 @@ const Store = () => {
 
     return  (
         <div className = "container">
-    <IconSwitch icon = {storeView}
-                onSwitch = {onSwitchClick}
+    <IconSwitch 
+      icon = {storeView}
+      onSwitch = {onSwitchClick}
              />
-  {view}
+      {view}
        </div>);
   }  
 
